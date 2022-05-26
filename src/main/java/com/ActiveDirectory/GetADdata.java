@@ -16,7 +16,7 @@ public class GetADdata
    public native ArrayList<String> GetData(String alert);
    public static void main(String[] args)
      {
-	   GetADdata detail = new GetADdata();
+	   /*GetADdata detail = new GetADdata();
 	  ArrayList<String> data = detail.GetData("Entering into c++");
 	  int i=0;
 	  for(String user:data)
@@ -30,6 +30,6 @@ public class GetADdata
 			  System.out.println(innerdata);
 		  }
 		  i=i+1;
-	  }
+	  }*/
     }
 }
