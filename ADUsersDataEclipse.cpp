@@ -2,8 +2,6 @@
 #include <wchar.h>
 #include <activeds.h>
 #include <Windows.h>
-//#define _WIN32_WINNT 0x0500
-//------------------------------>PROGRAM TO PRINT ALL USER DETAILS AND IT ALSO INCLUDES OPTION FOR ACCOUNT UNLOCK IF LOCKED(BY GETTING USER INPUT)<-----------------
 #include "atltime.h"
 #include <sddl.h>
 #include <iostream>
