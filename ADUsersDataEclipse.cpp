@@ -150,7 +150,6 @@ JNIEXPORT jobject JNICALL Java_com_ActiveDirectory_GetADdata_GetData(JNIEnv *env
 				if (FAILED(hr))
 				{
 					delete[] pszSearchFilter;
-					//return hr; should change return type
 				}
 
 				SYSTEMTIME systemtime;
